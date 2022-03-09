@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC</title>
+</head>
+<body style="background-color:coral">
+   <style>
+      #out{
+         border: 1px solid black;
+         border-collapse: collapse;
+      }
+      .to{
+         padding-left:50px  ;
+      }
+      .in{
+         border: 2px solid white;
+         width:40%;
+         height:200px;
+      }
+   </style>
+  <center><img src="./download.png" width="100px"></center>
+ <h1 style="border:2px solid black; color: white;" > <center>IRCTC RAIL CONNECT</center><h5 style="text-align:right;"><a href="./login.html">login/</a><a href="./register.html">sign_in</a></h5></h1><hr>
+  <div id="out">
+   <pre> <img src="./train.png" width="100px"><a href="http://www.indianrail.gov.in/enquiry/PNR/PnrEnquiry.html?locale=en"><img src="./pnr.png" width="100px" style="float: right;"><span style="float: right; font-size:20px;">PnrEnquiry</span></a><span style="font-size:xx-large;"><center>BOOK TICKET</center></span></pre><br><br>
+  <center><div class="in">
+      <br><br><label>FROM:</label>  
+    <input list="from">
+    <datalist id="from">
+      <option>chennai</option>
+      <option>erode</option>
+      <option>salem</option>
+      <option>karur</option>
+   </datalist>
+   <label class="to">TO:</label>
+   <input list="to"> 
+   <datalist id="to">
+      <option>chennai</option>
+      <option>erode</option>
+      <option>salem</option>
+      <option>karur</option>
+   </datalist>
+   <br><br><br><label>DATE:</label>
+   <input type="date">
+   <label class="to">CLASS:</label>
+  <select>
+      <optgroup label="Class">
+          <option>ALL Class</option>
+          <option>seating</option>
+          <option>sleeper</option>
+          <option>A/C</option>
+      </optgroup>
+      </select><br><br><br>
+      <label>GENERAL:</label>
+      <select>
+         <optgroup label="GENERAL">
+             <option>GENERAL</option>
+             <option>TAKTAL</option>
+         </optgroup>
+         </select></div><br><br><br>
+         <input type="checkbox"><i>Divyaang Concession</i>
+         <input type="checkbox"><i>Flexible With Date</i>
+         <input type="checkbox"><i>Train With Available Berth</i><br><br>
+         <input type="checkbox"><i>Railway Pass Concession</i><br><br>
+      </center>
+        <center><a href=""> <input type="submit" value="show the Availableof train"></a></center>
+  </div>
+
+</body>
+</html>

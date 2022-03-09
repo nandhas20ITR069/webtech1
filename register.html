@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <style>
+        fieldset{
+            width:50%;
+            text-align:left;
+        }
+    </style>
+</head>
+<body style="background-color:burlywood ;">
+    <center><h1>REGISTER</h1>
+    <form action="./login.html">
+        <fieldset>
+            <legend>USER-ID</legend>
+            <label>USER ID:</label>
+            <input type="text"><br><br>
+            <label>PASSWORD:</label>
+        <input type="password">(Between 3 to 10 character.only letter,number and underscore are allowed)<br><br>
+        <label>CONFIRM PASSWORD:</label>
+        <input type="password" min="10">(Min 8 character & Max 15 character.password must contain atleast one small & least one small & one capital alphabet and numeric digit))<br><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label>First NAME:</label>
+        <input type="text" required><br><br>
+        <label>Middle NAME:</label>
+        <input type="text"><br><br>
+        <label>Last NAME:</label>
+        <input type="text" required><br><br>
+        <label>Gender:</label>
+        <input type="radio">Male
+        <input type="radio">Female<br><br>
+        <label>DOB:</label>
+        <input type="date"><br><br>
+        <label>AADHAAR CARD NO:</label>
+        <input type="number" required><br><br>
+        <label>PAN CARD NO:</label>
+        <input type="text"><br><br>
+        <label>PHONE NO:</label>
+        <input type="number" required><br><br>
+        <label>EMAIL ID:</label>
+        <input type="email"><br><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>Residential Address</legend>
+        <label>ADDRESS:</label>
+        <textarea rows="3" cols="50" required></textarea><br><br>
+        <label>PIN CODE:</label>
+        <input type="number">
+    </fieldset><br></center>
+      <center>  <input type="submit" style="background-color: chocolate;width: 200px;">
+        <input type="reset" style="background-color: chocolate;width: 200px;"></center>
+    </form>
+</body>
+</html>
